@@ -1,0 +1,29 @@
+{
+  "name": "tasker2-server",
+  "version": "1.0.0",
+  "description": "taskers backend",
+  "main": "index.js",
+  "scripts": {
+    "test111": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/mocha/bin/mocha --recursive --require ./test/test_helper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bondvt04/tasker2-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bondvt04/tasker2-server/issues"
+  },
+  "homepage": "https://github.com/bondvt04/tasker2-server#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-immutable": "^1.6.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1"
+  }
+}
